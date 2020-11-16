@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Amatic SC', cursive;
+}
+
+.menu {
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.7;
+    text-align: right;
+    height: 4rem;
+    box-shadow: 0px 0px 18px 6px #FBFF20;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    opacity: 1;
+}
+
+.menu a {
+    position: relative;
+    top: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: color;
+}
+
+.menu a:hover {
+    color: crimson;
+}
+
+.font1 {
+    position: fixed;
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1303/fresh_nature_tree-natural_landscape_HD_wallpaper_1366x768.jpg");
+    height: 10rem;
+    top: -5rem;
+    width: 100%;
+    opacity: 1;
+}
+
+#contGalerieLien {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    top: 5rem;
+    width: 50%;
+    height: 50rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#galerieLien {
+    position: relative;
+    top: 45%;
+    color: white;
+    text-decoration: none;
+    font-size: 5rem;
+    transition: color , font-size;
+    transition-duration: 1s;
+}
+
+#galerieLien:hover {
+    color: crimson;
+    font-size: 6rem;
+}
+
+.contGaleriePage {
+    width: 100%;
+}
+
+.contGaleriePage .contPic{
+    display: inline-block;
+    padding: 10%;
+    width: 80%;
+    background-color: black;
+}
+
+.contPic img {
+    width: 30%;
+}
+
+.contGaleriePage .description {
+    display: inline-block;
+    width: 58%;
+    vertical-align: top;
+    padding: 3rem 6rem;
+    color: white;
+    font-size: 2rem;
+    border: 1px solid indianred;
+}
+
+.contPic:nth-child(even) img{
+    float: right;
+}
+
+.contPic h2 {
+    position: relative;
+    color: indianred;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
